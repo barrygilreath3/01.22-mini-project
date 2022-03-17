@@ -15,25 +15,38 @@
 
         <nav>
             <ul>
-                <li> <a href="http://www.google.com">Google</a></li>
+                <li><a href="http://www.google.com">Google</a></li>
                 <li><a href="http://www.facebook.com">Facebook</a></li>
-                <li><a href="#contactform"></a>Contact Us</li>
+                <li><a href="#contactform">Contact Us</a></li>
             </ul>
         </nav>
 
     </header>
 
-    <!-- Image with Caption -->
-    <section>
-        <img src="./assets/images/Square_200x200.png" alt="This is a picture">
-    </section>
+    <main>
+        <!-- Image with Caption -->
+        <section>
+            <img src="./assets/images/jigglypuff.png" alt="This is a picture" height="400px">
+            <p>Jigglypuff</p>
+            <form action="" method="get"></form>
+        </section>
 
-    <!-- Contact Form -->
-    <section id="contactform">
-        <h2>Contact Us</h2>
-        <p>This is where I would put the contact form</p>
-        <form action=""></form>
-    </section>
+        <!-- Contact Form -->
+        <section id="contactform">
+            <h2>Contact Us</h2>
+            <p>This is where I would put the contact form</p>
+            <form action="Get">
+                <label for="first name"><strong>First Name</strong></label>
+                <input type="text" id="firstname" name="firstname"><br><br>
+                <label for="email"><strong>Email Address</strong></label>
+                <input type="text" id="email" name="email"><br>
+                <label for="message"><strong>Message</strong></label><br>
+                <textarea name="message" cols="40" rows="10"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
     <!-- Footer -->
     <footer>
         <p>This is the footer</p>

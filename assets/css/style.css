@@ -2,27 +2,36 @@
     font-family:Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
-
 }
 
 header {
-    background-color: purple;
-    padding: 50px, 0px, 0px, 0px;
+    background-color: #007189;
     text-align: center;
-    position: sticky;
     width: 100%;
+    position:fixed;
+    margin: 0px, 0px, 20px, 0px;
+}
+
+main {
+    background-color: #cc9bac;
 }
 
 #contactform {
-    background-color: lightgrey;
+    background-color: #95c2cb;
+}
+
+a {
+    color: white;
 }
 
 h1 {
-    color: yellow;
+    color: white;
+    font-size: 48px;
 }
 
-nav {
-    display: inline;
+nav li {
+    display: inline-block;
+    font-size: 20px;
 }
 
 footer {
